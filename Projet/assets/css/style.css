@@ -17,6 +17,7 @@
   height: 50px;
   background-color: grey;
   border-radius: 5px;
+  margin-right: 5px;
 }
 #instagramIcon{
   font-size: 2em;
@@ -37,4 +38,8 @@
   height: 50px;
   background-color: grey;
   border-radius: 5px;
+  margin-left: 5px;
+}
+.socialNetwork{
+  display: flex;
 }
