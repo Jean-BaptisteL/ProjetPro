@@ -23,6 +23,7 @@ CREATE TABLE zui5e_users(
         name                Varchar (50) NOT NULL ,
         email               Varchar (70) NOT NULL ,
         password            Char (255) NOT NULL ,
+        hash                Char (60) NULL ,
         id_zui5e_usersTypes Int NOT NULL
 	,CONSTRAINT zui5e_users_PK PRIMARY KEY (id)
 
