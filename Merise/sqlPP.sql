@@ -98,10 +98,10 @@ CREATE TABLE zui5e_flightSpots(
 
 
 #------------------------------------------------------------
-# Table: _zui5e_articleType
+# Table: zui5e_articleType
 #------------------------------------------------------------
 
-CREATE TABLE _zui5e_articleType(
+CREATE TABLE zui5e_articleType(
         id   Int  Auto_increment  NOT NULL ,
         type TinyText NOT NULL
 	,CONSTRAINT _zui5e_articleType_PK PRIMARY KEY (id)
@@ -173,3 +173,10 @@ CREATE TABLE zui5e_reportedPublications(
 
 INSERT INTO `zui5e_usersTypes` (`name`)
 VALUES ('user'), ('moderator'), ('administrator');
+
+#------------------------------------------------------------
+# Table: zui5e_articleType Remplissage
+#------------------------------------------------------------
+
+INSERT INTO `_zui5e_articleType` (`type`)
+VALUES ('Test'), ('Tutoriel'), ('Réalisation')
